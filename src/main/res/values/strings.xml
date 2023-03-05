@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">My_Project_01</string>
+    <string name="play">Play again</string>
+    <string name="enter">Enter your guess here!</string>
+</resources>
