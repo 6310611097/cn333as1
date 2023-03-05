@@ -48,7 +48,7 @@ fun Tittle(){
 @Composable
 fun PlayApp(modifier: Modifier = Modifier){
     var myRandomInt by remember {
-        mutableStateOf(0)
+        mutableStateOf(Random.nextInt(1,101))
     }
 
     Column (
@@ -105,7 +105,6 @@ fun Compare(num: Int, rand: Int){
         } else {
             comp = "Good job!"
         }
-        Text(text = rand.toString())
         Text(text = comp)
     }
 }
